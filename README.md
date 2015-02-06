@@ -14,14 +14,13 @@ Example using Ember Data to access a Spring App using JSON REST API. This projec
 ./gradlew
 ```
 
-Open [http://localhost:8080](http://localhost:8080) to verify.
-
 ### Run server
 
 ```
 ./gradlew bootRun
 ```
 
+Open [http://localhost:8080](http://localhost:8080) to verify.
 
 ## Build and run Ember UI
 
