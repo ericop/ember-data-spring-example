@@ -10,3 +10,4 @@ gradle-app.setting
 tmp
 
 .DS_Store
+/bin/

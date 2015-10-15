@@ -38,7 +38,7 @@ public class Application {
   }
 
   List<Album> albums() {
-    return Arrays.asList(achtungBaby());
+    return Arrays.asList(achtungBaby(), demoAlbum());
 
   }
 
@@ -60,4 +60,17 @@ public class Application {
         )
     );
   }
+  
+  private Album demoAlbum() {
+	    return new Album(artistRepository.findByName("U2"), "Demo Album", 1973,
+	        Arrays.asList(
+	            new Track("The Beat"),
+	            new Track("Is Sweet"),
+	            new Track("U2 = us!"),
+	            new Track("Hip-Hop but Don't Stop")
+
+	        )
+	    );
+	  }
+  
 }

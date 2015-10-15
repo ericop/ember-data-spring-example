@@ -1,6 +1,6 @@
 {
   "name": "ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Small description for ui goes here",
   "private": true,
   "directories": {
@@ -16,13 +16,13 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "eop",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
     "broccoli-ember-hbs-template-compiler": "^1.6.1",
     "ember-cli": "0.1.9",
-    "ember-cli-6to5": "0.2.1",
+    "ember-cli-babel": "5.1.5",
     "ember-cli-content-security-policy": "0.3.0",
     "ember-cli-dependency-checker": "0.0.7",
     "ember-cli-ic-ajax": "0.1.1",
