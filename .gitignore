@@ -8,6 +8,7 @@ gradle-app.setting
 .idea
 
 tmp
+tags
 
 .DS_Store
 /bin/
